@@ -1,2 +1,0 @@
-module ClientArea::OrdersHelper
-end
