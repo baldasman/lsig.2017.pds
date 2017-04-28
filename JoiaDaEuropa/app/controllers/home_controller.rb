@@ -5,8 +5,5 @@ class HomeController < ApplicationController
 
   end
 
-  def view_persons
-
-  end
 
 end
