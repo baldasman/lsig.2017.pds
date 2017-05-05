@@ -1,10 +1,12 @@
 class HomeController < ApplicationController
 
-  def index
+    skip_before_action :authenticate_user!
 
+    def index
 
+        @today = Time.now
 
-  end
+    end
 
 
 end
