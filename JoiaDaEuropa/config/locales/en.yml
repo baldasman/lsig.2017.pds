@@ -24,3 +24,11 @@ en:
   my_account: "My account"
   email: "O meu email"
   name: "Name"
+  save: "Save"
+  activerecord:
+    errors:
+      models:
+        account:
+          attributes:
+            name:
+              blank: "name cannot be empty."
